@@ -22,6 +22,8 @@ namespace myApi.Controllers
         {
             _logger = logger;
         }
+        //this is just a comment
+        
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
